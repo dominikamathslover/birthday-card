@@ -76,6 +76,7 @@ header, main{
 .birthday-wish{
     border: 5px solid #f4c095;
     margin-top: 0;
+    padding: 0 0.5rem;
 }
 
 h1{
