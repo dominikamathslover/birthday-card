@@ -62,9 +62,12 @@ body{
     margin: 20px;
 }
 
+main{
+    margin-bottom: 1.5rem;
+}
+
 header, main{
     display: flex;
-    
     flex-direction: column;
     /* justify-content:center; */
     align-items: center;
