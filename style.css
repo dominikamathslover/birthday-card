@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    width: 100vw;
+    text-align: center;
+    /* background-color: #f3f0c8; */
+    background: linear-gradient( #f3f0c8,rgb(243, 238, 171),#f1f0d4,rgb(239, 231, 116));
+    color: #43291f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#birthday-cake{
+    margin: auto;
+    min-width: 200px;
+    min-height: 200px;
+
+    width: 20vw;
+    height: 20vw;
+
+    border-radius: 50%;
+    border: 2px solid white;
+    background-image: url("images/birthdaycake.jpg");
+    background-position: bottom;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+#birthday-cake:hover{
+    background-image: url("images/celebrate.gif");
+    border: 10px solid black;
+}
+
+.caveat {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.permanent{
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.birthday-title{
+    text-shadow: 0px 0px 2px white;
+    background-color: #f4c095;
+    margin: 0;
+    border: 5px solid #f4c095;
+    border-bottom: 0;
+    
+}
+
+.gift-section{
+    width: 90%;
+    max-width: 500px;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+header, main{
+    display: flex;
+    
+    flex-direction: column;
+    /* justify-content:center; */
+    align-items: center;
+}
+
+.birthday-wish{
+    border: 5px solid #f4c095;
+    margin-top: 0;
+}
+
+h1{
+    text-shadow: 1px 1px 0 white;
+    font-size: 1.5rem;
+}
+
+.gift-img{
+    width: 60vw;
+    height: 60vw;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 20px auto;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-image: url("images/giftbox3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.gift-img:hover{
+    background-image: url("images/giftbox2.jpg");
+}
+
+#happiness:active{
+    background-image: url("images/happiness.gif");
+}
+
+#sante:active{
+    background-image: url("images/sante.gif");
+}
+
+#friends:active{
+    background-image: url("images/friends.gif");
+}
+
+#family:active{
+    background-image: url("images/family.gif");
+}
+
+#dreams:active{
+    background-image: url("images/dreams.gif");
+}
+
+#peace:active{
+    background-image: url("images/peace.gif");
+}
+
+#love{
+    max-width: none;
+    max-height: none;
+    
+    margin: 0px;
+    width: 450px;
+    height: 600px;
+}
+
+#love:active{
+    background-image: url("images/us.jpg");
+}
+
+
+
